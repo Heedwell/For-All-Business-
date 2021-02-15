@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---header---*/
+.htop {
+    background-color: #000;
+    color: #fff;
+}
+
+.htop a {
+    color: #fff;
+}
+
+.socialhead a {
+    padding: 10px;
+}
+
+.socialhead a:hover {
+    color: #0df3f3;
+    text-decoration: none;
+
+}
+
+.socialhead {
+    padding: 5px 20px;
+}
+
+.right {
+    float: right;
+}
+
+.right a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header {
+    background-color: rgba(238, 236, 236, 0.715);
+    color: black;
+    border-bottom: 3px solid #008080;
+    overflow: hidden;
+    padding: 5px 50px;
+    width: 100%;
+    line-height: 20px;
+}
+
+header a {
+    float: left;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 4%;
+}
+
+header a:hover {
+    background-color: rgb(165, 186, 192);
+    color: white;
+    text-decoration: none;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+header a.active {
+    background-color: rgb(3, 121, 121);
+    color: #fff;
+}
+/*---header end---*/
+
+/*--- Banner ---*/
+.banner img {
+    width: 100%;
+}
+/*--- Banner End ---*/
+
+/*--- Headings ---*/
+.heading h1 {
+    font-weight: bolder;
+    color: #055a53;
+    background: #ccc;
+    text-align: center;
+}
+
+.udlina::after {
+    position: absolute;
+    content: '';
+    background-color: #008080;
+    height: 5px;
+    left: 43%;
+    width: 190px;
+    z-index: 9999;
+}
+
+.udlins::after {
+    position: absolute;
+    content: '';
+    background-color: #008080;
+    height: 5px;
+    left: 41%;
+    width: 250px;
+    z-index: 9999;
+}
+
+.udlina, .udlins {
+    padding: 0px 0px 20px 0px;
+}
+
+/*--- End Headings ---*/
+
+/*---About Us---*/
+.about {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: teal;
+    font-weight: 700;
+    color:#fff;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+
+.about a:hover {
+    background-color: transparent;
+    color: #222;
+}
+
+.abtlft h1 {
+    font-size: 50px;
+    text-align: left;
+}
+/*---About us end---*/
+
+/*---services---*/
+
+.services {
+    background-color: #fff;
+}
+
+.services .heading {
+    text-align: center;
+}
+
+.services .txt p {
+    text-align: justify;
+}
+
+.pro-img img {
+    width: 100%;
+    padding: 2px;
+    float: right;
+}
+
+.rgt {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.rgt {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.rgt > div {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.lft {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lft > div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/*---services end---*/
+
+/*---gallery---*/
+.gallery img {
+    display: block;
+    padding: 15px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 15px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay h1 {
+    padding: 50px;
+}
+
+.overlay p {
+    padding: 0px 15px 15px 15px;
+}
+
+.overbox {
+    position: relative;
+}
+
+.overbox:hover .overlay {
+    opacity: 1;
+}
+
+.overlay a {
+    color: #fff;
+}
+
+.overlay a:hover {
+    color: #0df3f3;
+    text-decoration: none;
+}
+
+/*---gallery end---*/
+
+/*--- Footer ---*/
+footer {
+    background-color: rgb(59, 54, 54);
+    color: white;
+    border-bottom: 3px solid #008080;
+    padding: 20px 5px;
+    font-size: small;
+}
+
+.socialfoot a {
+    font-size: 30px;
+    padding: 0px;
+}
+
+.socialfoot > a > i {
+    padding: 10px;
+    border: none;
+}
+
+footer hr {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #024141;
+}
+
+footer h2 {
+    color: #0df3f3;
+}
+
+footer li {
+    list-style: none;
+    padding-left: 14px;
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer li a {
+    color: #fff;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #008080;
+}
+
+.enqa a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer i {
+    color: #ccc;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+footer i:hover {
+    color: #008080;
+    background-color: #ccc;
+}
+
+.contus a {
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+}
+
+.contus a:hover {
+    color: #008080;
+}
+/*--- Footer End ---/*
+
+/*---for all pages---*/
+
+/*---up bar---*/
+.upbar {
+    background-color: #40423f;
+    color: #fff;
+}
+
+.upbar h1 {
+    padding-left: 80px;
+}
+
+.upbar p {
+    font-size: 20px;
+    margin: 0px;
+}
+.upbar a {
+    color: #fff;
+    text-decoration: none;
+}
+/*--- up bar ---*/
+
+/*---talk to us---*/
+.ttu {
+    padding: 20px;
+}
+
+.ttu a {
+    color: #fff;
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+}
+/*---end of talk to us---*/
+
+
+/*---end of for all pages---*/
+
+
+
+
+/*---about us page---*/
+
+.mn {
+    padding-top: 20px;
+}
+
+.aboutpg p {
+    text-align: justify;
+}
+
+/*---end of about us page---*/
+
+/*--- Product Details page ---*/
+.pro-detl-img {
+    width: 100%;
+    height: auto;
+    padding: 30px 70px 70px 70px;
+}
+
+.product-details p {
+    padding-bottom: 25px;
+}
+/*--- End Product Details page ---*/
