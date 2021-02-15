@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---header---*/
+header {
+    background-color: rgba(238, 236, 236, 0.715);
+    color: black;
+    border-bottom: 3px solid #008080;
+    overflow: hidden;
+    padding: 5px 50px;
+    top: 0;
+    width: 100%;
+    line-height: 20px;
+}
+
+header a {
+    float: left;
+    padding: 10px;
+    color: black;
+    border-radius: 4%;
+}
+
+header a:hover {
+    background-color: rgb(165, 186, 192);
+    color: white;
+    text-decoration: none;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+header a.active {
+    background-color: rgb(3, 121, 121);
+    color: #fff;
+}
+/*---header end---*/
+
+/*--- Banner ---*/
+.banner img {
+    width: 100%;
+}
+/*--- Banner End ---*/
+
+/*--- Headings ---*/
+.heading p {
+    text-align: center;
+    font-weight: 1000px;
+}
+/*--- End Headings ---*/
+
+/*---About Us---*/
+.about {
+    text-align: center;
+    padding: 50px 5px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: teal;
+    font-weight: 700;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.about a:hover {
+    background-color: transparent;
+    color: #222;
+}
+/*---About us end---*/
+
+/*---services---*/
+
+.services .heading {
+    text-align: center;
+}
+
+.services .txt p {
+    text-align: justify;
+}
+
+.pro-img img {
+    width: 100%;
+    border: 2px solid teal;
+    border-radius: 5%;
+    padding: 2px;
+    float: right;
+}
+
+.rgt {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.rgt {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.rgt > div {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.lft {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lft > div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/*---services end---*/
+
+/*--- Footer ---*/
+footer {
+    background-color: rgb(59, 54, 54);
+    color: white;
+    padding: 20px 5px;
+}
+/*--- Footer End ---/*
